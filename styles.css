@@ -14,12 +14,7 @@ h1 {
 h2, h3, h4 {
     color:#276678;
     padding-top: 0.75em;
-    /* text-align: center; */
-}
-
-#title-educ {
-    font-size: 2em;
-    font-weight: bold;
+    text-align: center;
 }
 
 li {
@@ -51,8 +46,15 @@ li {
       text-decoration: none;
   }
 
+ /* #jenPhoto {
+      width: 20%;
+      height:auto;
+      border-radius: 10%;
+     padding-left: 50px;
+  } */
+
   #jenSoloPhoto {
-    width: 23%;
+    width: 28%;
     height:auto;
     border-radius: 20%;
     display: block;
@@ -68,22 +70,23 @@ li {
     text-align: left;
 }
 
-  div {
- padding-left: 0%;
+/* div {
+ padding-left: 25%;
  padding-bottom: 4%;
- width: 40%;
+ width: 50%;
  padding-top: 0.5em;
-  }
+  } */
 
+ /* Project page  */
 .proj-photo {
-    width: 50%;
-    margin-left: 25%;
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
 }
 
-.proj-title, #resume-title {
-    padding-bottom: 2.5rem;
+.proj-title, #resume-title  {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .proj-title:hover, #resume-title:hover {
@@ -92,45 +95,89 @@ li {
  
 .portfolio-item {
     border: solid;
-    width: 25%;
-    display:inline-block;
+    width: 50%;
+    display:inline-block;  
     height: 300px;
     margin-left: 25%;
+    margin-top: 50px;
 }
 
 .portfolio-caption {
-    margin-top: 0px;
-    margin-left: 25%;
-    width: 50%;
-    margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 60px;
     background-color:#D3E0EA;
-    padding: 15px;
+    padding: 10px;
+
 }
 
+/* Education page */
+#coding {
+    width: 50%;
+    margin-left: 25%;
+}
+.coding-educ {
+    font-size: 20px;
+    padding: 20px;
+}
+.educ-head {
+    text-align: left;
+}
+
+#prog-languages {
+    list-style-type: none;
+    display: flex; 
+}
+
+#prog-languages li {
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+#self-study {
+    background-color: #E9D3EA;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#title-educ {
+    font-size: 2em;
+    font-weight: bold;
+}
 .educ-img {
-    width: 25%;
+    width: 40%;
+    margin-left:30%;
     height: auto;
+    display:flex;
+    padding-top: 30px;
+    border-radius: 50%;
+}
+#univ-educ {
+    background-color: #D3E0EA;
+    width: 100%;
+}
+#UW {
+    width: 100%;
+    background-color: #D3E0EA;
     display:inline-block;
-    padding-top: 50px;
+    margin-left: 30%;
+    
+}
+#Davis {
+    width: 100%;
+    background-color:  #EADDD3;
+    display:inline-block;
+    margin-left: 0%;
+}
+#center {
+    margin-left:30%;
+    width: 130%;
 }
 
-  #footer {
-      background-color: #171717;
-      border:solid;
-      width: 100%;
-      padding-top:2%;
-      padding-bottom:1%;
-      
-  }
+#univ-educ ul {
+    width: 50%;
+}
 
-  #univ-educ {
-      background-color: #D3E0EA;
-      width: 100%;
-  }
-
-  #univ-educ ul {
-      width: 50%;
-  }
+/* Resume page */
 figure {
     font-size: 4em;
     padding: 0;
@@ -143,21 +190,18 @@ figure:hover {
 
   #resume {
       font-size: 1em;
-      margin-left: 30%;
-      color: #000000;
+      color:#000000;
   }
 
   #resume:hover {
     color: #1687A7;
 }
 
-#prog-languages {
-    list-style-type: none;
-    display: flex; 
-}
-
-#prog-languages li {
-    margin-right: 40px;
-    font-size: 20px;
-    text-align: center;
+/* Footer */
+#footer {
+    background-color: #171717;
+    border:solid;
+    width: 100%;
+    padding-top:2%;
+    padding-bottom:1%; 
 }
