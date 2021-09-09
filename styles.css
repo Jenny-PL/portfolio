@@ -90,7 +90,7 @@ li {
     text-decoration: underline;
 }
  
-.porfolio-item {
+.portfolio-item {
     border: solid;
     width: 25%;
     display:inline-block;
@@ -98,7 +98,7 @@ li {
     margin-left: 25%;
 }
 
-.porfolio-caption {
+.portfolio-caption {
     margin-top: 0px;
     margin-left: 25%;
     width: 50%;
