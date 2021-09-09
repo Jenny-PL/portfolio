@@ -17,10 +17,14 @@ h2, h3, h4 {
     /* text-align: center; */
 }
 
+#title-educ {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 li {
     margin-bottom: 5px;
     font-size: 1em;
-
 }
 
 #nav {
@@ -47,13 +51,6 @@ li {
       text-decoration: none;
   }
 
- /* #jenPhoto {
-      width: 20%;
-      height:auto;
-      border-radius: 10%;
-     padding-left: 50px;
-  } */
-
   #jenSoloPhoto {
     width: 23%;
     height:auto;
@@ -67,11 +64,12 @@ li {
     margin-bottom: 50px;
     font-size: 1.3em;
     width: 60%;
+    margin-left: 20%;
     text-align: left;
 }
 
-  div{
- padding-left: 30%;
+  div {
+ padding-left: 0%;
  padding-bottom: 4%;
  width: 40%;
  padding-top: 0.5em;
@@ -82,9 +80,14 @@ li {
     margin-left: 25%;
 }
 
-.proj-title {
+.proj-title, #resume-title {
     padding-bottom: 2.5rem;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.proj-title:hover, #resume-title:hover {
+    text-decoration: underline;
 }
  
 .porfolio-item {
@@ -93,6 +96,15 @@ li {
     display:inline-block;
     height: 300px;
     margin-left: 25%;
+}
+
+.porfolio-caption {
+    margin-top: 0px;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 40px;
+    background-color:#D3E0EA;
+    padding: 15px;
 }
 
 .educ-img {
@@ -119,3 +131,33 @@ li {
   #univ-educ ul {
       width: 50%;
   }
+figure {
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+figure:hover {
+    opacity: 80%;
+}
+
+  #resume {
+      font-size: 1em;
+      margin-left: 30%;
+      color: #000000;
+  }
+
+  #resume:hover {
+    color: #1687A7;
+}
+
+#prog-languages {
+    list-style-type: none;
+    display: flex; 
+}
+
+#prog-languages li {
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
